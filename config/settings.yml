@@ -1,0 +1,3 @@
+plugins:
+  master_controls_enabled:
+    default: true
