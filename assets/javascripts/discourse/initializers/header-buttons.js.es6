@@ -19,7 +19,7 @@ function initializeWithApi(api) {
       return helper.attach('link', {
         rawLabel: gitBranch,
         className: 'btn btn-default btn-small stage-site-link-version stage-site-link',
-        href: "https://github.com/discourse/discourse/commit/" + gitVersion });
+        href: "https://github.com/fantasticfears/discourse/commit/" + gitVersion });
     }
   });
 }
