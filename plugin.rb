@@ -41,11 +41,10 @@ after_initialize do
   SiteSetting.min_personal_message_post_length = 2
   SiteSetting.body_min_entropy = 1
   SiteSetting.min_topic_title_length = 2
-  SiteSetting.max_topic_title_length = 2
+  SiteSetting.max_topic_title_length = 255
   SiteSetting.title_min_entropy = 2
   SiteSetting.title_prettify = false
-  SiteSetting.min_title_similiar_length = 2
-  SiteSetting.min_body_similiar_length = 2
+  SiteSetting.min_title_similar_length = 2
   SiteSetting.unique_posts_mins = 0
   SiteSetting.rate_limit_new_user_create_topic = 20
   SiteSetting.rate_limit_new_user_create_post = 7
