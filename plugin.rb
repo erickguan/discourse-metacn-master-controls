@@ -19,11 +19,11 @@ after_initialize do
   SiteSetting.has_login_hint=false
   SiteSetting.sso_url='https://meta.discoursecn.org/session/sso_provider'
   SiteSetting.sso_secret=']cU4+7fddFthK%46ULgRJa,xBJ69gtaJ'
+  SiteSetting.enable_sso=true
   SiteSetting.sso_overrides_email=true
   SiteSetting.sso_overrides_username=true
   SiteSetting.sso_overrides_name=true
   SiteSetting.sso_not_approved_url='https://meta.discoursecn.org'
-  SiteSetting.enable_sso=true
   SiteSetting.allow_user_locale=true
   SiteSetting.login_required=true
   SiteSetting.default_email_digest_frequency=0
