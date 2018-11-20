@@ -38,7 +38,7 @@ after_initialize do
   SiteSetting.wizard_enabled=false
   SiteSetting.min_post_length = 2
   SiteSetting.min_first_post_length = 2
-  SiteSetting.min_private_message_post_length = 2
+  SiteSetting.min_personal_message_post_length = 2
   SiteSetting.body_min_entropy = 1
   SiteSetting.min_topic_title_length = 2
   SiteSetting.max_topic_title_length = 2
