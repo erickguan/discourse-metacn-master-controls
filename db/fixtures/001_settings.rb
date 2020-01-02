@@ -10,7 +10,6 @@ SiteSetting.sso_not_approved_url='https://meta.discoursecn.org'
 SiteSetting.allow_user_locale=true
 SiteSetting.login_required=true
 SiteSetting.default_email_digest_frequency=0
-SiteSetting.default_email_direct=false
 SiteSetting.force_https=true
 SiteSetting.allow_index_in_robots_txt=false
 SiteSetting.allow_moderators_to_create_categories=true
